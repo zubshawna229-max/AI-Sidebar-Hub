@@ -1,0 +1,180 @@
+#ai-sidebar-hub-root {
+  all: initial;
+  position: fixed;
+  z-index: 2147483647;
+  inset: 0 0 0 auto;
+  width: min(420px, calc(100vw - 24px));
+  transform: translateX(108%);
+  transition: transform 180ms ease;
+  font-family: Inter, "Segoe UI", "PingFang SC", "Microsoft YaHei", sans-serif;
+}
+
+#ai-sidebar-hub-root.ai-sidebar-hub-open {
+  transform: translateX(0);
+}
+
+#ai-sidebar-hub-root * {
+  box-sizing: border-box;
+}
+
+.aihub-panel {
+  display: flex;
+  height: 100vh;
+  flex-direction: column;
+  color: #18212f;
+  background: #f7f9fc;
+  border-left: 1px solid #dce3ee;
+  box-shadow: -18px 0 48px rgba(24, 33, 47, 0.18);
+}
+
+.aihub-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+  padding: 16px;
+  color: #ffffff;
+  background: #18212f;
+}
+
+.aihub-title {
+  margin: 0;
+  font-size: 17px;
+  font-weight: 850;
+}
+
+.aihub-subtitle {
+  margin: 4px 0 0;
+  color: #bac4d4;
+  font-size: 12px;
+}
+
+.aihub-close {
+  width: 36px;
+  height: 36px;
+  border: 0;
+  border-radius: 8px;
+  color: #ffffff;
+  background: #2c394d;
+  cursor: pointer;
+}
+
+.aihub-body {
+  display: grid;
+  gap: 12px;
+  overflow: auto;
+  padding: 14px;
+}
+
+.aihub-section {
+  padding: 12px;
+  border: 1px solid #dce3ee;
+  border-radius: 8px;
+  background: #ffffff;
+}
+
+.aihub-label {
+  margin: 0 0 8px;
+  color: #657083;
+  font-size: 12px;
+  font-weight: 800;
+  letter-spacing: 0;
+  text-transform: uppercase;
+}
+
+.aihub-page-title {
+  overflow: hidden;
+  margin: 0 0 4px;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  font-size: 14px;
+  font-weight: 800;
+}
+
+.aihub-page-url {
+  overflow: hidden;
+  margin: 0;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  color: #657083;
+  font-size: 12px;
+}
+
+.aihub-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 8px;
+}
+
+.aihub-provider,
+.aihub-template,
+.aihub-primary,
+.aihub-secondary {
+  min-height: 38px;
+  border-radius: 8px;
+  font: inherit;
+  font-size: 13px;
+  font-weight: 800;
+  cursor: pointer;
+}
+
+.aihub-provider {
+  border: 1px solid #dce3ee;
+  color: #18212f;
+  background: #ffffff;
+}
+
+.aihub-provider.aihub-selected {
+  border-color: #2563eb;
+  color: #1746b8;
+  background: #eaf1ff;
+}
+
+.aihub-template {
+  border: 1px solid #dce3ee;
+  color: #263244;
+  background: #f7f9fc;
+}
+
+.aihub-template.aihub-selected {
+  border-color: #0f766e;
+  color: #0f766e;
+  background: #e7f7f4;
+}
+
+.aihub-prompt {
+  width: 100%;
+  min-height: 190px;
+  resize: vertical;
+  border: 1px solid #dce3ee;
+  border-radius: 8px;
+  padding: 10px;
+  color: #18212f;
+  font: 13px/1.45 "Segoe UI", "PingFang SC", "Microsoft YaHei", sans-serif;
+  background: #ffffff;
+}
+
+.aihub-actions {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 8px;
+}
+
+.aihub-primary {
+  border: 0;
+  color: #ffffff;
+  background: #2563eb;
+}
+
+.aihub-secondary {
+  border: 1px solid #dce3ee;
+  color: #18212f;
+  background: #ffffff;
+}
+
+.aihub-note {
+  margin: 0;
+  color: #657083;
+  font-size: 12px;
+  line-height: 1.45;
+}
