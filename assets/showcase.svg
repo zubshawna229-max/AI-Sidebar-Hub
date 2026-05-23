@@ -1,0 +1,42 @@
+<svg width="1200" height="760" viewBox="0 0 1200 760" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1200" height="760" fill="#F7F9FC"/>
+  <rect x="76" y="72" width="1048" height="616" rx="18" fill="#FFFFFF" stroke="#DCE3EE"/>
+  <rect x="76" y="72" width="1048" height="62" rx="18" fill="#18212F"/>
+  <circle cx="116" cy="103" r="8" fill="#EF4444"/>
+  <circle cx="144" cy="103" r="8" fill="#F59E0B"/>
+  <circle cx="172" cy="103" r="8" fill="#10B981"/>
+  <rect x="220" y="91" width="520" height="24" rx="8" fill="#2C394D"/>
+  <text x="244" y="108" fill="#BAC4D4" font-family="Segoe UI, Arial, sans-serif" font-size="14">https://example.com/project/brief</text>
+  <rect x="124" y="184" width="470" height="20" rx="10" fill="#DCE3EE"/>
+  <rect x="124" y="226" width="560" height="16" rx="8" fill="#DCE3EE"/>
+  <rect x="124" y="262" width="510" height="16" rx="8" fill="#DCE3EE"/>
+  <rect x="124" y="298" width="536" height="16" rx="8" fill="#DCE3EE"/>
+  <rect x="124" y="354" width="500" height="16" rx="8" fill="#DCE3EE"/>
+  <rect x="124" y="390" width="548" height="16" rx="8" fill="#DCE3EE"/>
+  <rect x="124" y="426" width="456" height="16" rx="8" fill="#DCE3EE"/>
+  <rect x="762" y="134" width="362" height="554" fill="#F7F9FC" stroke="#DCE3EE"/>
+  <rect x="762" y="134" width="362" height="74" fill="#18212F"/>
+  <text x="786" y="169" fill="#FFFFFF" font-family="Segoe UI, Arial, sans-serif" font-size="20" font-weight="800">AI 事务侧边栏</text>
+  <text x="786" y="192" fill="#BAC4D4" font-family="Segoe UI, Arial, sans-serif" font-size="13">复制网页上下文，交给常用 AI 网页处理</text>
+  <rect x="786" y="232" width="314" height="72" rx="8" fill="#FFFFFF" stroke="#DCE3EE"/>
+  <text x="804" y="260" fill="#657083" font-family="Segoe UI, Arial, sans-serif" font-size="12" font-weight="800">当前网页</text>
+  <text x="804" y="286" fill="#18212F" font-family="Segoe UI, Arial, sans-serif" font-size="15" font-weight="800">项目需求说明与任务清单</text>
+  <rect x="786" y="324" width="314" height="128" rx="8" fill="#FFFFFF" stroke="#DCE3EE"/>
+  <text x="804" y="352" fill="#657083" font-family="Segoe UI, Arial, sans-serif" font-size="12" font-weight="800">选择 AI 网页</text>
+  <rect x="804" y="370" width="126" height="34" rx="8" fill="#EAF1FF" stroke="#2563EB"/>
+  <text x="838" y="392" fill="#1746B8" font-family="Segoe UI, Arial, sans-serif" font-size="13" font-weight="800">ChatGPT</text>
+  <rect x="944" y="370" width="126" height="34" rx="8" fill="#FFFFFF" stroke="#DCE3EE"/>
+  <text x="986" y="392" fill="#18212F" font-family="Segoe UI, Arial, sans-serif" font-size="13" font-weight="800">Claude</text>
+  <rect x="804" y="412" width="126" height="34" rx="8" fill="#FFFFFF" stroke="#DCE3EE"/>
+  <text x="846" y="434" fill="#18212F" font-family="Segoe UI, Arial, sans-serif" font-size="13" font-weight="800">Gemini</text>
+  <rect x="944" y="412" width="126" height="34" rx="8" fill="#FFFFFF" stroke="#DCE3EE"/>
+  <text x="986" y="434" fill="#18212F" font-family="Segoe UI, Arial, sans-serif" font-size="13" font-weight="800">Kimi</text>
+  <rect x="786" y="472" width="314" height="138" rx="8" fill="#FFFFFF" stroke="#DCE3EE"/>
+  <text x="804" y="500" fill="#657083" font-family="Segoe UI, Arial, sans-serif" font-size="12" font-weight="800">发送内容</text>
+  <rect x="804" y="518" width="278" height="54" rx="8" fill="#F7F9FC" stroke="#DCE3EE"/>
+  <text x="822" y="542" fill="#263244" font-family="Segoe UI, Arial, sans-serif" font-size="13">请基于这个网页内容提取待办...</text>
+  <rect x="804" y="630" width="130" height="38" rx="8" fill="#FFFFFF" stroke="#DCE3EE"/>
+  <text x="836" y="654" fill="#18212F" font-family="Segoe UI, Arial, sans-serif" font-size="14" font-weight="800">复制提示词</text>
+  <rect x="952" y="630" width="130" height="38" rx="8" fill="#2563EB"/>
+  <text x="982" y="654" fill="#FFFFFF" font-family="Segoe UI, Arial, sans-serif" font-size="14" font-weight="800">复制并打开</text>
+</svg>
